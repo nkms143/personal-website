@@ -77,10 +77,12 @@
 
             <section id="contact" class="contact">
                 <h2>Get In Touch</h2>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" required></textarea>
+                <form class="contact-form" action="https://formsubmit.co/nkms143@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Contact from Portfolio Website">
+                    <input type="hidden" name="_next" value="https://nkms143.github.io/personal-website/thanks.html">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn">Send Message</button>
                 </form>
             </section>
